@@ -1,0 +1,47 @@
+//layout.scss
+
+@charset "UTF-8";
+
+/* ====================
+
+	layout stylesheet
+
+===================== */
+
+/* === clear float elements Start ============================ */
+.clearfix:after,
+.inner:after{
+	content : " ";
+	display : block ;
+	height : 0 ;
+	visibility :hidden ;
+	clear : both ;
+}
+.clearfix,
+inner{
+	*zoom : 1 ;
+	_display : inline-block ;
+	_height : 1em ;
+}
+/* === clear float elements End ============================ */
+
+html{
+	width : 100% ;
+}
+
+body{
+	width : 100% ;
+	color : #000 ;
+	background-color : #f7f7f7 ;
+	font-size : 1.2rem ;
+	letter-spacing : 0.08rem ;
+	-webkit-backface-visibility : hidden ;
+	/*
+	font-size :12px ;
+	*/
+	font-size : 12px\9 ;
+	*font-size : 12px ;
+}
+body, button, input, select, textarea{
+  font: 0.75em/1.75em 'Arial', Helvetica, Arial, sans-serif;
+}
