@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'tunga';
+	src: url('./tunga.eot');
+	src: local('tunga'), url('./tunga.woff') format('woff'), url('./tunga.ttf') format('truetype');
+}
+
